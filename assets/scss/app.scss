@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/***********************   Global   *********************/
+ul,li{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style-type:none;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+/***********************   Header   *********************/
+header{
+    height: 152px;
+
+}
+header .logo {
+    margin-top: 17px;
+  }
+
+.nav li a
+  {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #294363 !important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.container-fluid{
+    width: 80%;
+    margin-top: 3%;
+}
+.btn_contact{
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+/***********************   Footer   *********************/
+footer{
+    min-height:200px;
+    background-color:#294363;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.footer-col { margin-top:25px; }
+.logofooter { margin-bottom:10px; font-size:35px; }
+.heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+.footer-col p { color:#fff; font-size:12px; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footer-col p i { width:20px; color:#999;}
+
+.footer-ul { list-style-type:none;  padding-left:0; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+.footer-social{
+    margin-right: 10px;
+}
+ .footer-social li{
+     float:left;
+ }
+
+/*      content */
+.Jumbotron1{
+    height: 552px;
+    width: 100%;
+    background-color: #d8efef;
+}
+.Jumbotron2{
+    height: 602px;
+    width: 100%;
+    background-color: #294363;
+    margin-top: -20px;
+}
+.center-block{
+    margin: 0 auto;
+}
+h3{
+     
+    font-family: Karla;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    
+}
+ .slide_image p{
+    font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 137px;
+  margin-right: 137px;
+  margin-bottom: 64px;
+  opacity: 0.80;
+  color: #294363;
+}
+
+/* slide slide galery */
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.jobs{
+    height: 680px;
+    background-color: #d8efef;
+}
+
+

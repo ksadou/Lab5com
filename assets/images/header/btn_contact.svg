@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="45" viewBox="0 0 122 45">
+    <defs>
+        <style>
+            .cls-1{fill:#e95a4f;stroke:#e95a4f}.cls-2{fill:#fff;font-size:14px;font-family:Montserrat-Medium,Montserrat;font-weight:500}.cls-3{stroke:none}.cls-4{fill:none}.cls-5{filter:url(#Rectangle_12)}
+        </style>
+        <filter id="Rectangle_12" width="122" height="45" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur result="blur" stdDeviation="1.5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="btn_contact" data-name="btn contact" transform="translate(-43.5 -425.5)">
+        <g class="cls-5" transform="translate(43.5 425.5)">
+            <g id="Rectangle_12-2" class="cls-1" data-name="Rectangle 12" transform="translate(4.5 3.5)">
+                <rect width="113" height="36" class="cls-3" rx="18"/>
+                <rect width="112" height="35" x=".5" y=".5" class="cls-4" rx="17.5"/>
+            </g>
+        </g>
+        <text id="CONTACT" class="cls-2" transform="translate(105 452)">
+            <tspan x="-34.552" y="0">CONTACT</tspan>
+        </text>
+    </g>
+</svg>

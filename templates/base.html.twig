@@ -1,13 +1,102 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-    
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<html lang="en">
+<head>
+  <title>{% block title %}Welcome!{% endblock %}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+  {% block stylesheets %}
+     <link rel="stylesheet" href="{{ asset('build/css/app.css') }}" />
+  {% endblock %}
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a link="#" >
+        <span>
+            <object  data="{{ asset('build/header/logo_Lab5com_bleu.svg') }}" type="image/svg+xml" class="center-block">
+                <img  src="{{ asset('build/header/logo_Lab5com_bleu.png') }}"  alt="Logo Lab5com" />
+            </object>
+        </span>
+        </a>
+    </div>
+    <nav class="navbar ">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav ">
+                <li><a href="#">CE QUE NOUS FAISONS</a></li>
+                <li><a href="#">COMMENT NOUS LE FAISONS</a></li>
+                <li><a href="#">NOTRE ACTUALITE</a></li>
+                <li><a href="#">JOBS</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+        </div>
+        <div class="btn_contact">
+           <a link="#" > <object data="{{ asset('build/header/btn_contact.svg') }}" type="image/svg+xml" >
+           <img src="{{ asset('build/header/btn_contact.png') }}"  /></a>
+        </object>
+
+        </div>
+    </nav>
+</header>
+
+{% block content %}
+{% endblock %}
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
+                <div class="logofooter">
+                    <a link="#" >
+                        <object  data="{{ asset('build/footer/logo_lab5com_blanc.svg') }}" type="image/svg+xml">
+                            <img  src="{{ asset('build/footer/logo_lab5com_blanc.png') }}"  alt="Logo Lab5com" />
+                        </object>
+                    </a>
+                </div>
+                <ul class="footer-social">
+                    <li><object  data="{{ asset('build/footer/facebook.svg') }}" type="image/svg+xml">
+                        <img  src="{{ asset('build/footer/facebook.png') }}"  alt="facebook" />
+                        </object>
+                    </li>
+                    <li><object  data="{{ asset('build/footer/twitter.svg') }}" type="image/svg+xml">
+                            <img  src="{{ asset('build/footer/twitter.png') }}"  alt="Twotter" />
+                        </object>
+                    </li>
+                    <li><object  data="{{ asset('build/footer/linkedin.svg') }}" type="image/svg+xml">
+                            <img  src="{{ asset('build/footer/linkedin.png') }}"  alt="linkedin" />
+                        </object>
+                    </li>
+                    <li><object  data="{{ asset('build/footer/instagram.svg') }}" type="image/svg+xml">
+                            <img  src="{{ asset('build/footer/instagram.png') }}"  alt="instagram" />
+                        </object>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
+                <h6 class="heading7">A PROPOS</h6>
+                <ul class="footer-ul">
+                <li><a href="#"> Blog</a></li>
+                <li><a href="#"> Montions légales</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
+                <h6 class="heading7">Contact</h6>
+                <p><i class="fa fa-map-pin"></i> 121, Rue du Vieux Pont de Sèvres 92100 Boulogne-Billancourt</p>
+                <p><i class="fa fa-phone"></i> Phone : +33 1 48 25 12 12</p>
+                <p><i class="fa fa-envelope"></i> E-mail : recrutement@lab5com.fr</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+{% block javascripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="{{ asset('build/js/app.js')}}>
+{% endblock %}
+
+</body>
 </html>

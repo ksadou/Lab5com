@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.611" height="60.807" viewBox="0 0 56.611 60.807">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:#294363}
+        </style>
+    </defs>
+    <g id="angular_logo" data-name="angular logo" transform="translate(-31.9 -30)">
+        <path id="Tracé_666" d="M60.206 30L31.9 40.094l4.317 37.427 23.989 13.286 23.988-13.286 4.317-37.427z" class="cls-1" data-name="Tracé 666"/>
+        <path id="Tracé_667" d="M125 30v60.807l23.988-13.286 4.317-37.427z" class="cls-1" data-name="Tracé 667" transform="translate(-64.794)"/>
+        <path id="Tracé_668" d="M84.495 52.1L66.8 91.777h6.6l3.555-8.877h15.019l3.557 8.878h6.6L84.495 52.1zm5.169 25.326H79.326l5.169-12.435z" class="cls-2" data-name="Tracé 668" transform="translate(-24.289 -15.381)"/>
+    </g>
+</svg>
