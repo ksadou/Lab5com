@@ -36,7 +36,10 @@ header .logo {
     letter-spacing: normal;
     text-align: center;
 }
-
+.navbar-default {
+    background-color: white !important;
+    border-color: white !important;
+}
 .container-fluid{
     width: 80%;
     margin-top: 3%;
@@ -91,14 +94,12 @@ footer{
     margin: 0 auto;
 }
 h3{
-     
     font-family: Karla;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
     margin-top: 64px;
     margin-bottom: 64px;
-    
 }
  .slide_image p{
     font-family: Montserrat;
@@ -126,9 +127,8 @@ h3{
     clear: both;
     display: table;
   }
-.jobs{
+
+.jobs {
     height: 680px;
     background-color: #d8efef;
 }
-
-
