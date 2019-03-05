@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,101 +11,99 @@
   {% endblock %}
 </head>
 <body>
-<header>
-
-    <div class="logo">
-        <a link="#" >
-        <span>
-            <object  data="{{ asset('build/header/logo_Lab5com_bleu.svg') }}" type="image/svg+xml" class="center-block">
-                <img  src="{{ asset('build/header/logo_Lab5com_bleu.png') }}"  alt="Logo Lab5com" />
-            </object>
-        </span>
-        </a>
-    </div>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">CE QUE NOUS FAISONS</a></li>
-                        <li><a href="#">COMMENT NOUS LE FAISONS</a></li>
-                        <li><a href="#">NOTRE ACTUALITE</a></li>
-                        <li><a href="#">JOBS</a></li>
-                        <li><a href="#">BLOG</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                        <button type="submit" class="btn btn-default">Contact</button>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-</header>
-
-{% block content %}
-{% endblock %}
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
-                <div class="logofooter">
-                    <a link="#" >
-                        <object  data="{{ asset('build/footer/logo_lab5com_blanc.svg') }}" type="image/svg+xml">
-                            <img  src="{{ asset('build/footer/logo_lab5com_blanc.png') }}"  alt="Logo Lab5com" />
-                        </object>
-                    </a>
+    <header>
+        <div class="logo">
+            <a link="#" >
+            <span>
+                <object  data="{{ asset('build/header/logo_Lab5com_bleu.svg') }}" type="image/svg+xml" class="center-block">
+                    <img  src="{{ asset('build/header/logo_Lab5com_bleu.png') }}"  alt="Logo Lab5com" />
+                </object>
+            </span>
+            </a>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-                <ul class="footer-social">
-                    <li><object  data="{{ asset('build/footer/facebook.svg') }}" type="image/svg+xml">
-                        <img  src="{{ asset('build/footer/facebook.png') }}"  alt="facebook" />
-                        </object>
-                    </li>
-                    <li><object  data="{{ asset('build/footer/twitter.svg') }}" type="image/svg+xml">
-                            <img  src="{{ asset('build/footer/twitter.png') }}"  alt="Twotter" />
-                        </object>
-                    </li>
-                    <li><object  data="{{ asset('build/footer/linkedin.svg') }}" type="image/svg+xml">
-                            <img  src="{{ asset('build/footer/linkedin.png') }}"  alt="linkedin" />
-                        </object>
-                    </li>
-                    <li><object  data="{{ asset('build/footer/instagram.svg') }}" type="image/svg+xml">
-                            <img  src="{{ asset('build/footer/instagram.png') }}"  alt="instagram" />
-                        </object>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
-                <h6 class="heading7">A PROPOS</h6>
-                <ul class="footer-ul">
-                <li><a href="#"> Blog</a></li>
-                <li><a href="#"> Montions légales</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
-                <h6 class="heading7">Contact</h6>
-                <p><i class="fa fa-map-pin"></i> 121, Rue du Vieux Pont de Sèvres 92100 Boulogne-Billancourt</p>
-                <p><i class="fa fa-phone"></i> Phone : +33 1 48 25 12 12</p>
-                <p><i class="fa fa-envelope"></i> E-mail : recrutement@lab5com.fr</p>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">CE QUE NOUS FAISONS</a></li>
+                            <li><a href="#">COMMENT NOUS LE FAISONS</a></li>
+                            <li><a href="#">NOTRE ACTUALITE</a></li>
+                            <li><a href="#">JOBS</a></li>
+                            <li><a href="#">BLOG</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                            <button type="submit" class="btn btn-contact">CONTACT</button>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
+                    <div class="logofooter">
+                        <a link="#" >
+                            <object  data="{{ asset('build/footer/logo_lab5com_blanc.svg') }}" type="image/svg+xml">
+                                <img  src="{{ asset('build/footer/logo_lab5com_blanc.png') }}"  alt="Logo Lab5com" />
+                            </object>
+                        </a>
+                    </div>
+                    <ul class="footer-social">
+                        <li><object  data="{{ asset('build/footer/facebook.svg') }}" type="image/svg+xml">
+                            <img  src="{{ asset('build/footer/facebook.png') }}"  alt="facebook" />
+                            </object>
+                        </li>
+                        <li><object  data="{{ asset('build/footer/twitter.svg') }}" type="image/svg+xml">
+                                <img  src="{{ asset('build/footer/twitter.png') }}"  alt="Twotter" />
+                            </object>
+                        </li>
+                        <li><object  data="{{ asset('build/footer/linkedin.svg') }}" type="image/svg+xml">
+                                <img  src="{{ asset('build/footer/linkedin.png') }}"  alt="linkedin" />
+                            </object>
+                        </li>
+                        <li><object  data="{{ asset('build/footer/instagram.svg') }}" type="image/svg+xml">
+                                <img  src="{{ asset('build/footer/instagram.png') }}"  alt="instagram" />
+                            </object>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
+                    <h6 class="heading7">A PROPOS</h6>
+                    <ul class="footer-ul">
+                    <li><a href="#"> Blog</a></li>
+                    <li><a href="#"> Montions légales</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 footer-col">
+                    <h6 class="heading7">Contact</h6>
+                    <p><i class="fa fa-map-pin"></i> 121, Rue du Vieux Pont de Sèvres 92100 Boulogne-Billancourt</p>
+                    <p><i class="fa fa-phone"></i> Phone : +33 1 48 25 12 12</p>
+                    <p><i class="fa fa-envelope"></i> E-mail : recrutement@lab5com.fr</p>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 
-{% block javascripts %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="{{ asset('build/js/app.js')}}>
-{% endblock %}
-
+    {% block javascripts %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="{{ asset('build/js/app.js')}}"></script>
+    {% endblock %}
 </body>
 </html>

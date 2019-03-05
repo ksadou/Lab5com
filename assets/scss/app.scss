@@ -2,6 +2,10 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 /***********************   Global   *********************/
+img, table,p, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+    max-width: 100%;
+}
+
 ul,li{
     padding:0;
     margin:0;
@@ -13,17 +17,24 @@ li{
     margin-right: 0px;
     margin-left: 0px;
 }
+.btn {
+    background-color:#e95a4f;
+    color: white;
+    border-radius: 20px;
+}
 
 
 /***********************   Header   *********************/
 header{
     height: 152px;
-
 }
 header .logo {
     margin-top: 17px;
   }
-
+.btn-contact {
+    width: 113px;
+    height: 36px;
+  }
 .nav li a
   {
     font-size: 18px;
@@ -91,7 +102,9 @@ footer{
     margin-top: -20px;
 }
 .center-block{
-    margin: 0 auto;
+    margin: 40px auto;
+    max-width: 100%;
+    height: auto;
 }
 h3{
     font-family: Karla;
@@ -108,11 +121,13 @@ h3{
   line-height: 1.18;
   letter-spacing: normal;
   text-align: left;
-  margin-left: 137px;
-  margin-right: 137px;
   margin-bottom: 64px;
   opacity: 0.80;
   color: #294363;
+}
+.btn-en-savoir-plus{
+    width: 184px;
+    height: 36px;
 }
 
 /* slide slide galery */
@@ -131,4 +146,18 @@ h3{
 .jobs {
     height: 680px;
     background-color: #d8efef;
+}
+
+@media (max-width: 600px){
+    .image{
+        position: relative;
+    }
+    .btn-en-savoir-plus{
+        position:absolute;
+       
+    }
+    header .logo {
+        margin-top: 40px;
+        
+      }
 }
